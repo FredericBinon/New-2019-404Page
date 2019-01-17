@@ -1,0 +1,109 @@
+body{
+  background-image: url("Pacground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Texte{
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  margin-left: 0.7em;
+  margin-top:0.3em;
+  font-size:3.8em;
+  color: #b71c1c;
+  margin-bottom: 0px;
+}
+
+.animated {
+  animation-iteration-count: 4;
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+}
+
+#Sorry{
+  font-family: 'Montserrat', sans-serif;
+  margin-right: 50px;
+  font-size:2em;
+  color:#363636;
+  margin-left: 40px;
+  width: 890px;
+  position:absolute;
+  bottom:300px;
+  left:70px;
+
+}
+
+#Bouton{
+  position: absolute;
+  top:90px;
+  right:55px;
+  font-size: 20px;
+  text-align:center;
+  width:200px;
+  height:90px;
+  background-color: black;
+  margin-right: 30px;
+  color:white;
+  border-radius: 30px;
+  border: 1px solid #FFFFB3;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#Image{
+  margin-left: 50px;
+  width:150px;
+  height:150px;
+  background-image: url(PacManOpen.png);
+  position:absolute;
+  bottom:285px;
+  right: 400px;
+}
+
+#Image:hover{
+  background-image: url(PacManClose.png);
+}
+
+#Bouton:hover{
+  background-color: #FFFFE3;
+  color: black;
+}
+
+#Booh{
+  height: 170px;
+  width: 170px;
+  background-image: url(Ghost.png);
+  background-repeat:no-repeat;
+  background-size: 170px 170px;
+  position:absolute;
+  top: 80px;
+  left:100px;
+}
+
+#Booh:hover{
+  background-image: url(GhostBroken.gif);
+  background-repeat:no-repeat;
+  background-size: 170px 170px;
+}
+
+#Error{
+  color: white;
+  font-size: 5em;
+  margin-bottom: 0px;
+  position: absolute;
+  bottom:0px;
+  left:41%;
+  font-family: 'VT323', monospace;
+}
+
+.fruits{
+  position: absolute;
+  bottom:8%;
+  left:5.5%;
+}
+
+#Entertainment{
+  position: absolute;
+  bottom:1%;
+  right:3.5%;
+}
