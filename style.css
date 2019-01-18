@@ -14,12 +14,7 @@ body{
   margin-bottom: 0px;
 }
 
-.animated {
-  animation-iteration-count: 4;
-  animation-delay: 1s;
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-}
+
 
 #Sorry{
   font-family: 'Montserrat', sans-serif;
@@ -100,6 +95,14 @@ body{
   position: absolute;
   bottom:8%;
   left:5.5%;
+}
+
+.animated{
+  animation-duration: 2s;
+  animation-iteration-count:3;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
 }
 
 #Entertainment{
